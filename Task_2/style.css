@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+}
+
+.id1 {
+  color: rgb(215, 241, 99);
+  margin: auto;
+  padding-top: 60px;
+  height: 100%;
+  float: left;
+}
+
+.id1 h1 {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+#App-logo {
+  padding-top: 100px;
+  margin-left: -80.42%;
+  width: 60%;
+  height: 50%;
+}
+
+button {
+  color: black;
+  font-weight: 600;
+  float: right;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(251, 253, 117);
+  float: right;
+  height: 5%;
+  width: 10.1%;
+  margin-top: 40px;
+  padding: 12px 8px;
+}
+button:hover {
+  transition: 200ms;
+  scale: 2.5;
+  background-color: rgb(62, 245, 7);
+}
+
+.column1 {
+  height: 80%;
+  float: left;
+  width: 50%;
+}
+
+.image {
+  border-radius: 50%;
+}
+
+h2 {
+  color: white;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.con {
+  float: left;
+  width: 25%;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 8 100px;
+  margin-left: 10px;
+  margin-top: 80px;
+}
+
+.row {
+  margin: 0 -400px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f00707;
+}
+
+.card:hover {
+  background-color: rgb(223, 252, 190);
+}
+
+.name {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.name:hover {
+  background-color: #fbfdfc;
+}
+
+.email {
+  color: darkblue;
+  font-size: 18px;
+  overflow-wrap: anywhere;
+}
+
+.email:hover {
+  background-color: rgb(229, 229, 243);
+}
+
+.id {
+  color: black;
+  font-weight: 900;
+}
